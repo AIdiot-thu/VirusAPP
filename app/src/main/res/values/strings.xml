@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VirusAPP</string>
+    <string name="title_news">疫情新闻</string>
+    <string name="title_map">疫情地图</string>
+    <string name="title_info">新冠知识</string>
+    <string name="title_scholar">知疫学者</string>
+    <string name="news_class_1">国内新闻</string>
+    <string name="news_class_2">国外新闻</string>
+</resources>
