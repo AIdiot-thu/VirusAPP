@@ -4,18 +4,15 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.TableLayout;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
@@ -28,13 +25,10 @@ import java.util.List;
 public class NewsFragment extends Fragment {
 
     private NewsViewModel newsViewModel;
-
-    //pptrick add:
-    private Button test_button;
-    private TextView textView;
-    private Integer test_num = 1;
+    private Integer test_num = 0;
     private List<News> newsList = new ArrayList<>();
     private RecyclerView recyclerView;
+    private SwipeRefreshLayout swipeRefreshLayout;
     private TabLayout tablayout;
     private ViewPager viewPager;
 
@@ -97,13 +91,13 @@ public class NewsFragment extends Fragment {
 
         /********************************domain********************************/
         //recycler view settings
-        test_button = domain_layout.findViewById(R.id.test_button);
-        textView = domain_layout.findViewById(R.id.text_news);
+        swipeRefreshLayout = domain_layout.findViewById(R.id.swipeLayout_domain);
         recyclerView = domain_layout.findViewById(R.id.news_recyclerview);
         LinearLayoutManager layoutManager = new LinearLayoutManager(domain_layout.getContext());
         recyclerView.setLayoutManager(layoutManager);
         final NewsAdapter adapter = new NewsAdapter(newsList);
         recyclerView.setAdapter(adapter);
+
         addNews();
 
         //View Model
@@ -112,17 +106,16 @@ public class NewsFragment extends Fragment {
         newsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-                textView.setText(s);
             }
         });
 
-        test_button.setOnClickListener(new View.OnClickListener() {
+        //swipeRefresh
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
-            public void onClick(View v) {
-                newsViewModel.getText().setValue(test_num.toString());
-                test_num++;
+            public void onRefresh() {
                 addNews();
                 adapter.notifyDataSetChanged();
+                swipeRefreshLayout.setRefreshing(false);
             }
         });
         /*******************************domain*********************************/
@@ -131,6 +124,7 @@ public class NewsFragment extends Fragment {
     }
 
     private void addNews(){
+        test_num++;
         News a = new News("This is a big news" + test_num.toString(), R.drawable.ic_news_black_24dp);
         newsList.add(a);
     }
