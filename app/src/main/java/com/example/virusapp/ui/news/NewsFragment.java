@@ -95,7 +95,7 @@ public class NewsFragment extends Fragment {
         recyclerView = domain_layout.findViewById(R.id.news_recyclerview);
         LinearLayoutManager layoutManager = new LinearLayoutManager(domain_layout.getContext());
         recyclerView.setLayoutManager(layoutManager);
-        final NewsAdapter adapter = new NewsAdapter(newsList);
+        final NewsAdapter adapter = new NewsAdapter(newsList, getActivity());
         recyclerView.setAdapter(adapter);
 
         addNews();
@@ -125,7 +125,7 @@ public class NewsFragment extends Fragment {
 
     private void addNews(){
         test_num++;
-        News a = new News("This is a big news" + test_num.toString(), R.drawable.ic_news_black_24dp);
+        News a = new News("This is a big news, and I want to make it long enough" + test_num.toString(), "dhkafhlkdak", R.drawable.ic_news);
         newsList.add(a);
     }
 }

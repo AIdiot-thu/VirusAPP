@@ -28,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
         <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -142,6 +142,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="244" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1599357326286" />
+    <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599482833262">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599482833262" />
     <state x="2460" y="274" key="AndroidCreateResourceDirectoryDialog" timestamp="1599471757319">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -154,22 +158,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2667" y="179" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599474902678" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1599474922094">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1599483014308">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599474922094" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1599474922094">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599483014308" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1599483014308">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599474922094" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1599474922093">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599483014308" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1599483014308">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599474922093" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1599474922094">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599483014308" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1599483014308">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599474922094" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599483014308" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1599356242666">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -178,19 +182,19 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2012" y="92" width="1736" height="856" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599381781818" />
-    <state x="334" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1599453911463">
+    <state x="334" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1599478965410">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="334" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1599453911463" />
+    <state x="334" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1599478965410" />
     <state x="2421" y="281" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599369758722" />
     <state x="334" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1599409244652" />
     <state x="2672" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599386822974">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2672" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599386822974" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599381255560">
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599477658239">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599381255560" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599477658239" />
   </component>
 </project>
