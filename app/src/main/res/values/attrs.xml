@@ -3,4 +3,15 @@
     <declare-styleable name="MapView">
         <attr name="map" format="reference"/>
     </declare-styleable>
+
+    <declare-styleable name="tableview">
+        <attr name="rownum" format="integer" />
+        <attr name="colnum" format="integer" />
+        <attr name="headtext" format="string" />
+        <attr name="head_is_show" format="boolean"/>
+        <attr name="head_height" format="integer"/>
+        <attr name="tablehead_height" format="integer"/>
+        <attr name="tablecontent_height" format="integer"/>
+
+    </declare-styleable>
 </resources>

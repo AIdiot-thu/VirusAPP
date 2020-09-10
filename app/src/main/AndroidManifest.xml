@@ -23,6 +23,7 @@
             android:name=".NewsActivity"
             android:label="新闻详情">
         </activity>
+
         <service android:name=".data.DataManager"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
